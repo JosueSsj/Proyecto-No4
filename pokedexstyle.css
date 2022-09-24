@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+body
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: red;
+    margin: 0%;
+}
+h1
+{
+    font-size: 50px;
+    color: yellow;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.pokemon-Container
+{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-items: center;
+   gap: 70px;
+   
+}
+
+.pokemon-block
+{
+    border-radius: 35px;
+    width: 290px;
+    background-color: white;
+    box-shadow: 0 15px 25px rgba(10, 2, 2, 0.60);
+}
